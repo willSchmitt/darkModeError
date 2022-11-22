@@ -1,0 +1,170 @@
+/* #################### GERAL ############## */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --text-color: #323238;
+  --bg-card: #E1E1E6;
+  --bg-body: FFFFFFF;
+}
+
+body  {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-body)
+}
+
+.container {
+  height: 100vh;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 19.2rem;
+}
+
+
+/* #################### TIMER ############## */
+
+
+.time span {
+  font-size: 12.7rem;
+  line-height: 14.8rem;
+  color: var(--text-color);
+
+  margin-bottom: 4.8rem;
+}
+
+.timer .button {
+  display: flex;
+  gap: 4rem;
+}
+
+.timer button {
+  background: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+/* #################### SONS ############## */
+
+.sons {
+  display: grid;
+  grid-template-columns: 13.8rem 13.8rem;
+  gap: 3.2rem;
+}
+
+.sons input {
+  width: 80%;
+  margin-top: 3.2rem;
+}
+
+.sons .forestCard {
+  background: var(--bg-card);
+
+  width: 13.8rem;
+  height: 15.2rem;
+
+  border-radius: 2.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  cursor: pointer;
+}
+
+.sons .forestCard:hover {
+  background: #02799D;
+  transition: .7s;
+}
+
+.sons .rainCard {
+  background: var(--bg-card);
+
+  width: 13.8rem;
+  height: 15.2rem;
+
+  border-radius: 2.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  cursor: pointer;
+}
+.sons .rainCard:hover {
+  background: #02799D;
+  transition: .7s;
+}
+
+
+.sons .coffeCard {
+  background: var(--bg-card);
+
+  width: 13.8rem;
+  height: 15.2rem;
+
+  border-radius: 2.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  cursor: pointer;
+}
+.sons .coffeCard:hover {
+  background: #02799D;
+  transition: .7s;
+}
+
+
+.sons .fireplaceCard {
+  background: var(--bg-card);
+
+  width: 13.8rem;
+  height: 15.2rem;
+
+  border-radius: 2.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  cursor: pointer;
+}
+.sons .fireplaceCard:hover {
+  background: #02799D;
+  transition: .7s;
+}
+
+.iconMode {
+  position: absolute;
+  display: flex;
+  padding: 6rem;
+  top: 0;
+  right: 0;
+
+  cursor: pointer;
+}
+
+.iconDarkMode {
+  position: absolute;
+  display: flex;
+  padding: 6rem;
+  top: 0;
+  right: 0;
+
+  cursor: pointer;
+}
+
